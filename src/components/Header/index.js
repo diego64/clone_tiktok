@@ -1,5 +1,25 @@
+import { Container } from "./styles";
+
 function Header() {
-    return <h1>Header</h1>
+    return(
+        <Container>
+            <Content>
+                <LogoContainer>
+                    <LogoIcon>
+
+
+                    </LogoIcon>
+                    <Logo>
+
+                    </Logo>
+                </LogoContainer>
+                <OptionContainer>
+                    <Icon></Icon>
+                    <Avatar></Avatar>
+                </OptionContainer>
+            </Content>
+        </Container>
+    );
 }
 
 export default Header;
