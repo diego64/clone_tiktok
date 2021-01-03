@@ -1,22 +1,19 @@
-import { Container } from "./styles";
+import { Container, Content, LogoContainer, LogoIcon, Logo, OptionsContainer, Icon, Avatar } from "./styles.js";
 
 function Header() {
-    return(
+    return (
         <Container>
             <Content>
                 <LogoContainer>
-                    <LogoIcon>
-
-
-                    </LogoIcon>
-                    <Logo>
-
-                    </Logo>
+                    <LogoIcon src="/images/logoIcon.svg"></LogoIcon>
+                    <Logo src="/images/logo.svg"></Logo>
                 </LogoContainer>
-                <OptionContainer>
-                    <Icon></Icon>
-                    <Avatar></Avatar>
-                </OptionContainer>
+                <OptionsContainer>
+                    <Icon src="/images/uploadIcon.svg"></Icon>
+                    <Avatar>
+                        <img src="/images/download2.png" />
+                    </Avatar>
+                </OptionsContainer>
             </Content>
         </Container>
     );
