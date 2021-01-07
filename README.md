@@ -1,3 +1,6 @@
 Clone TikTok (Versão WEB)
 
-Aplicação em desenvolvimento
+✅ Inicializando o projeto
+✅ Configurando o projeto
+✅ Configurando Styled-component
+🔧 Criando componente Layout
