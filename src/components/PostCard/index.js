@@ -1,3 +1,25 @@
+import {
+  Container,
+  Header,
+  PersonContainer,
+  Avatar,
+  Info,
+  Author,
+  Description,
+  Song,
+  Tag,
+  Content,
+  VideoContainer,
+  Video,
+  ActionsContainer,
+  PlayerIcon,
+  Actions,
+  Action,
+  ButtonContainer,
+} from './styles';
+
+import Button from '../Button';
+
 function PostCad({post}) {
     return (
         <Container>
@@ -17,6 +39,9 @@ function PostCad({post}) {
                         </Description>
                     </Info>
                 </PersonContainer>
+                <ButtonContainer>
+                    <Button fontSiza={14} outlined>Seguir</Button>
+                </ButtonContainer>
             </Header>
             <Content>
                 <Song>
@@ -35,7 +60,22 @@ function PostCad({post}) {
                     </ActionsContainer>
                 </VideoContainer>
             </Content>
-            <Actions></Actions>
+            <Actions>
+                <Action>
+                    <img></img>
+                    <a></a>
+                </Action>
+                <Action>
+                    <img></img>
+                    <a></a>
+                </Action>
+                <Action>
+                    <img></img>
+                    <a></a>
+                </Action>
+            </Actions>
         </Container>
     );
 }
+
+export default PostCad;

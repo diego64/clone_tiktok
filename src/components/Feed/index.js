@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import PostCard from '../PostCard';
 
-function Feed({posts}) {
+function Feed({ posts }) {
     return (
         <Container>
            {posts.map((post, index) => (
@@ -10,3 +10,5 @@ function Feed({posts}) {
         </Container>
     );
 }
+
+export default Feed;
