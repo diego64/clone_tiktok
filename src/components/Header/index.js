@@ -11,7 +11,7 @@ function Header() {
                 <OptionsContainer>
                     <Icon src="/images/uploadIcon.svg"></Icon>
                     <Avatar>
-                        <img src="/images/download2.png" />
+                        <img src="/images/download.png" />
                     </Avatar>
                 </OptionsContainer>
             </Content>

@@ -16,7 +16,7 @@ export async function getServerSideProps(context) {
             {
                 id: 1,
                 author: {id: 1, 
-                    avatar: '/images/download2.png', 
+                    avatar: '/images/download.png', 
                     name: 'Diego Ferreira', 
                     username: 'diegof'
                 },
@@ -32,7 +32,7 @@ export async function getServerSideProps(context) {
             {
                 id: 2,
                 author: {id: 1, 
-                    avatar: '/images/download2.png', 
+                    avatar: '/images/download.png', 
                     name: 'Diego Ferreira', 
                     username: 'diegof'
                 },
